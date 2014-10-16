@@ -6,13 +6,36 @@ Listing
 PassByValueStackOverflow
 Point
 
+array:
+
+MaximumSubarrayKadane
+MaximumSubarrayKadane2
+MaximumSubarrayNaiveCubic
+MaximumSubarrayNaiveQuadratic
+
+
 math:
 
+GcdByTrialDivision
 
-array:
+
+puzzle:
+
+SudokuChecker
 
 
 string:
 
+LimitRepeatedCharacters
+ReverseStringInPlaceUsingOneVariableForSwapping
+ReverseStringInPlaceUsingTwoVariablesForSwapping
+ReverseStringUsingNewCharArray
+Subsequence
+
 
 system:
+
+ScannerAndSystemInTest
+
+
+
