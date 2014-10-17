@@ -1,7 +1,7 @@
 snippets-java
 =============
 
-Listing. Total: 20
+Listing. Total: 22
 
 
 PassByValueStackOverflow, Point
@@ -28,9 +28,11 @@ set: 2
 R3SUMNaive, SubsetSumNaive
 
 
-string: 5
+string: 7
 
-LimitRepeatedCharacters, ReverseStringInPlaceUsingOneVariableForSwapping, ReverseStringInPlaceUsingTwoVariablesForSwapping, ReverseStringUsingNewCharArray, Subsequence
+AnagramsUsingArraysSortLinearithmic, AnagramsUsingListsQuadratic, LimitRepeatedCharacters, 
+ReverseStringInPlaceUsingOneVariableForSwapping, ReverseStringInPlaceUsingTwoVariablesForSwapping, 
+ReverseStringUsingNewCharArray, Subsequence
 
 
 system: 1
