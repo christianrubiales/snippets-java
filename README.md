@@ -1,17 +1,13 @@
 snippets-java
 =============
 
-Listing
+Listing. Total: 14
 
-PassByValueStackOverflow
-Point
+PassByValueStackOverflow, Point
 
 array:
 
-MaximumSubarrayKadane
-MaximumSubarrayKadane2
-MaximumSubarrayNaiveCubic
-MaximumSubarrayNaiveQuadratic
+MaximumSubarrayKadane, MaximumSubarrayKadane2, MaximumSubarrayNaiveCubic, MaximumSubarrayNaiveQuadratic
 
 
 math:
@@ -26,11 +22,7 @@ SudokuChecker
 
 string:
 
-LimitRepeatedCharacters
-ReverseStringInPlaceUsingOneVariableForSwapping
-ReverseStringInPlaceUsingTwoVariablesForSwapping
-ReverseStringUsingNewCharArray
-Subsequence
+LimitRepeatedCharacters, ReverseStringInPlaceUsingOneVariableForSwapping, ReverseStringInPlaceUsingTwoVariablesForSwapping, ReverseStringUsingNewCharArray, Subsequence
 
 
 system:
