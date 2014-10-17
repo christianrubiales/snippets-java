@@ -1,15 +1,16 @@
 snippets-java
 =============
 
-Listing. Total: 18
+Listing. Total: 20
 
 
 PassByValueStackOverflow, Point
 
 
-array: 4
+array: 6
 
-MaximumSubarrayKadane, MaximumSubarrayKadane2, MaximumSubarrayNaiveCubic, MaximumSubarrayNaiveQuadratic
+MaximumSubarrayKadane, MaximumSubarrayKadane2, MaximumSubarrayNaiveCubic, MaximumSubarrayNaiveQuadratic, 
+SquareAllElementsAndKeepSortedUsingArraysSort, SquareAllElementsAndKeepSortedUsingArraysSort
 
 
 math: 4
