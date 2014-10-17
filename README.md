@@ -1,31 +1,38 @@
 snippets-java
 =============
 
-Listing. Total: 14
+Listing. Total: 18
+
 
 PassByValueStackOverflow, Point
 
-array:
+
+array: 4
 
 MaximumSubarrayKadane, MaximumSubarrayKadane2, MaximumSubarrayNaiveCubic, MaximumSubarrayNaiveQuadratic
 
 
-math:
+math: 4
 
-GcdByTrialDivision
+GcdByTrialDivision, GcdEuclideanUsingMod, GcdEuclideanUsingModRecursive, GcdEuclideanUsingSubtraction
 
 
-puzzle:
+puzzle: 1
 
 SudokuChecker
 
 
-string:
+set: 2
+
+R3SUMNaive, SubsetSumNaive
+
+
+string: 5
 
 LimitRepeatedCharacters, ReverseStringInPlaceUsingOneVariableForSwapping, ReverseStringInPlaceUsingTwoVariablesForSwapping, ReverseStringUsingNewCharArray, Subsequence
 
 
-system:
+system: 1
 
 ScannerAndSystemInTest
 
