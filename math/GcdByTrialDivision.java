@@ -1,15 +1,11 @@
 package math;
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class GcdByTrialDivision
 {
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
-		System.out.println(gcd(90000000, 100000000));
+	public static void main (String[] args) throws java.lang.Exception {
+		System.out.println(gcd(90000000, 100000000));// 10000000
+		System.out.println(gcd(90, 100));// 10
 	}
 	
 	/**
