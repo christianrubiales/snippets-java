@@ -4,6 +4,8 @@ import java.util.PriorityQueue;
 
 /**
  * Uses PriorityQueue, poll() REMOVES the head of the queue.
+ * 
+ * @see http://www.glassdoor.com/Interview/MongoDB-Interview-RVW3517833.htm
  */
 public class SquareAllElementsAndKeepSortedUsingPriorityQueue {
 
