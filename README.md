@@ -1,7 +1,7 @@
 snippets-java
 =============
 
-Listing. Total: 22
+Listing. Total: 26
 
 
 PassByValueStackOverflow, Point
@@ -13,14 +13,15 @@ MaximumSubarrayKadane, MaximumSubarrayKadane2, MaximumSubarrayNaiveCubic, Maximu
 SquareAllElementsAndKeepSortedUsingArraysSort, SquareAllElementsAndKeepSortedUsingArraysSort
 
 
-math: 4
+math: 6
 
-GcdByTrialDivision, GcdEuclideanUsingMod, GcdEuclideanUsingModRecursive, GcdEuclideanUsingSubtraction
+GcdByTrialDivision, GcdEuclideanUsingMod, GcdEuclideanUsingModRecursive, GcdEuclideanUsingSubtraction, 
+SieveofEratosthenesUsingArray, SieveofEratosthenesUsingList
 
 
-puzzle: 1
+puzzle: 2
 
-SudokuChecker
+FollowsPattern, SudokuChecker
 
 
 set: 2
