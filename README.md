@@ -1,7 +1,7 @@
 snippets-java
 =============
 
-Listing. Total: 27
+Listing. Total: 28
 
 
 PassByValueStackOverflow, Point
@@ -11,6 +11,11 @@ array: 6
 
 MaximumSubarrayKadane, MaximumSubarrayKadane2, MaximumSubarrayNaiveCubic, MaximumSubarrayNaiveQuadratic, 
 SquareAllElementsAndKeepSortedUsingArraysSort, SquareAllElementsAndKeepSortedUsingArraysSort
+
+
+game: 1
+
+FizzBuzz
 
 
 math: 6
