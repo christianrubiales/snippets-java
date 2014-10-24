@@ -10,12 +10,9 @@ public class MaximumSubarrayKadane2 {
 		System.out.println(getMaximumSubarraySum(new int[] {-3, -2, -1}));// -1
 	}
 	
-	/**
-	 * Try all possible pairs and get the maximum sum.
-	 */
 	public static int getMaximumSubarraySum(int[] array) {
-		int maxEndingHere =  array[0];
-		int maxSoFar =  array[0];
+		int maxEndingHere = array[0];
+		int maxSoFar = array[0];
 		
 		for (int i = 0; i < array.length; i++) {
 			maxEndingHere = maxEndingHere + array[i] > array[i] ? maxEndingHere + array[i] : array[i];
