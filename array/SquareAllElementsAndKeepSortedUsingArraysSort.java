@@ -2,6 +2,9 @@ package array;
 
 import java.util.Arrays;
 
+/**
+ * @see http://www.glassdoor.com/Interview/MongoDB-Interview-RVW3517833.htm
+ */
 public class SquareAllElementsAndKeepSortedUsingArraysSort {
 
 	public static void main(String[] args) {
