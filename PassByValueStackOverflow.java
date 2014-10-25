@@ -1,9 +1,3 @@
-/* package whatever; // don't place package name! */
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 /* http://stackoverflow.com/a/12429953 */
 class PassByValueStackOverflow {
 	public static void main(String[] args) throws java.lang.Exception {
