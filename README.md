@@ -1,7 +1,7 @@
 snippets-java
 =============
 
-Listing. Total: 31
+Listing. Total: 32
 
 
 PassByValueStackOverflow, Point
@@ -18,10 +18,10 @@ game: 1
 FizzBuzz
 
 
-math: 6
+math: 7
 
 GcdByTrialDivision, GcdEuclideanUsingMod, GcdEuclideanUsingModRecursive, GcdEuclideanUsingSubtraction, 
-SieveofEratosthenesUsingArray, SieveofEratosthenesUsingList
+PrimeFactors, SieveofEratosthenesUsingArray, SieveofEratosthenesUsingList
 
 
 parentheses: 3
