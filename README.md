@@ -1,7 +1,7 @@
 snippets-java
 =============
 
-Listing. Total: 28
+Listing. Total: 30
 
 
 PassByValueStackOverflow, Point
@@ -22,6 +22,11 @@ math: 6
 
 GcdByTrialDivision, GcdEuclideanUsingMod, GcdEuclideanUsingModRecursive, GcdEuclideanUsingSubtraction, 
 SieveofEratosthenesUsingArray, SieveofEratosthenesUsingList
+
+
+parentheses: 2
+
+ValidParenthesesMultipleCharacterTypesUsingStack, ValidParenthesesSingleCharacterTypeUsingArray
 
 
 puzzle: 2
