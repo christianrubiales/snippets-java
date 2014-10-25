@@ -1,9 +1,3 @@
-/* package whatever; // don't place package name! */
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 /**
  * Test of Pass By Value in Java 
  * @see http://www.javaworld.com/article/2077424/learn-java/does-java-pass-by-reference-or-pass-by-value.html
