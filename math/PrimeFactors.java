@@ -3,6 +3,11 @@ package math;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Starting from 2, keep dividing the number by the current divisor as long as it is divisible (so use mod). 
+ * If the current divisor no longer gives an integer quotient, increment the divisor. 
+ * The divisor value gets bigger, the number itself gets smaller because of repeated divisions.
+ */
 public class PrimeFactors {
 
 	public static void main(String[] args) {
