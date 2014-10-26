@@ -1,7 +1,7 @@
 snippets-java
 =============
 
-Listing. Total: 33
+Listing. Total: 34
 
 
 PassByValueStackOverflow, Point
@@ -34,9 +34,9 @@ puzzle: 2
 FollowsPattern, SudokuChecker
 
 
-set: 2
+set: 3
 
-R3SUMNaive, SubsetSumNaive
+R3SUMAllSubsetsNaive, R3SUMNaive, SubsetSumNaive
 
 
 string: 8
