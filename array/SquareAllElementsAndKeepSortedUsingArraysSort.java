@@ -19,7 +19,7 @@ public class SquareAllElementsAndKeepSortedUsingArraysSort {
 		for (int i = 0; i < array.length; i++) {
 			array[i] = array[i] * array[i];
 		}
-		Arrays.sort(array);
+		Arrays.sort(array); // O(n log(n)) 
 		
 		return array;
 	}
