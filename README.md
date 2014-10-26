@@ -1,7 +1,7 @@
 snippets-java
 =============
 
-Listing. Total: 36
+Listing. Total: 37
 
 
 PassByValueStackOverflow, Point
@@ -45,6 +45,11 @@ string: 8
 AnagramsUsingArraysSortLinearithmic, AnagramsUsingPriorityQueueLinearithmic, AnagramsUsingListsQuadratic, LimitRepeatedCharacters, 
 ReverseStringInPlaceUsingOneVariableForSwapping, ReverseStringInPlaceUsingTwoVariablesForSwapping, 
 ReverseStringUsingNewCharArray, Subsequence
+
+
+sql: 1
+
+findTableEntriesWithoutCorrespondingEntriesInRelatedTable
 
 
 system: 1
