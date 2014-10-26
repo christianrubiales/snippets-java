@@ -1,16 +1,17 @@
 snippets-java
 =============
 
-Listing. Total: 35
+Listing. Total: 36
 
 
 PassByValueStackOverflow, Point
 
 
-array: 7
+array: 8
 
 MaximumSubarrayKadane, MaximumSubarrayKadane2, MaximumSubarrayNaiveCubic, MaximumSubarrayNaiveQuadratic, 
-SquareAllElementsAndKeepSorted, SquareAllElementsAndKeepSortedUsingArraysSort, SquareAllElementsAndKeepSortedUsingArraysSort
+SquareAllElementsAndKeepSorted, SquareAllElementsAndKeepSortedUsingArraysSort, SquareAllElementsAndKeepSortedUsingArraysSort,
+SquareAllElementsGlassdoor
 
 
 game: 2
