@@ -10,6 +10,10 @@ public class R3SUMNaive {
 		for (int i : getSubset(set, 0)) {//{-3, -2, 5}
 			System.out.println(i);
 		}
+		set = new int[]{-1, 0, 1, 2, -1, -4};
+		for (int i : getSubset(set, 0)) {//{-1, 0, 1}
+			System.out.println(i);
+		}
 	}
 	
 	public static int[] getSubset(int[] set, int sum) {
