@@ -1,7 +1,10 @@
 package math;
 
+
 /**
  * A bit tricky when it comes to array indexes.
+ * time: O(n log (log n))
+ * space: O(n)
  */
 public class SieveofEratosthenesUsingArray {
 
@@ -9,26 +12,22 @@ public class SieveofEratosthenesUsingArray {
 
 		// 2
 		int[] primes = getPrimes(2);
-		for (int i = 0; i < primes.length; i++) {
-			System.out.print(primes[i] + " ");
-		}
-		System.out.println();
+		print(primes);
 		
 		// 2 3 5 7 11 13 17 19 23 29
 		primes = getPrimes(30);
-		for (int i = 0; i < primes.length; i++) {
-			System.out.print(primes[i] + " ");
-		}
-		System.out.println();
+		print(primes);
 		
 		// 2 3 4 5 7 9 13 15 19 21 25 31 33 39 43 45 49 55 61 63 69 73 75 81 85 91 99 103 105 109 111 115
 		primes = getPrimes(121);
-		for (int i = 0; i < primes.length; i++) {
-			System.out.print(primes[i] + " ");
-		}
-		System.out.println();
+		print(primes);
+		
+		long start = System.currentTimeMillis();
+		primes = getPrimes(10000000);
+		System.out.println((System.currentTimeMillis() - start) + "ms");
+//		print(primes);
 	}
-
+	
 	public static int[] getPrimes(int max) {
 		int[] primes = new int[max+1];
 		
@@ -61,4 +60,12 @@ public class SieveofEratosthenesUsingArray {
 		
 		return totalprimes;
 	}
+
+	public static void print(int[] primes) {
+		for (int i = 0; i < primes.length; i++) {
+			System.out.print(primes[i] + " ");
+			System.out.println();
+		}
+	}
+
 }
