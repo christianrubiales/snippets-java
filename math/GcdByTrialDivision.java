@@ -13,7 +13,8 @@ class GcdByTrialDivision
 	 * then start trying to divide both given numbers with the smaller number.
 	 * If they can be both divided by the number, then that is the GCD.
 	 * Else, keep decrementing the test number by 1 until 1 is reached 
-	 * or the test number can now divide both numbers. 
+	 * or the test number can now divide both numbers.
+	 * O(n)
 	 */
 	public static int gcd(int a, int b) {
 		for (int i = Math.min(a, b); i >= 1; i--) {
