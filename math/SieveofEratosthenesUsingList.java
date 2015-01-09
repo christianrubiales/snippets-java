@@ -3,6 +3,10 @@ package math;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * time: O(n log (log n))
+ * space: O(n)
+ */
 public class SieveofEratosthenesUsingList {
 
 	public static void main(String[] args) {
