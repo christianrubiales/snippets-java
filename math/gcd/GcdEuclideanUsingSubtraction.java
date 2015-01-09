@@ -1,4 +1,4 @@
-package math;
+package math.gcd;
 
 public class GcdEuclideanUsingSubtraction {
 

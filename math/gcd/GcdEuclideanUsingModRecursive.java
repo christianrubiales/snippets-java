@@ -1,6 +1,6 @@
-package math;
+package math.gcd;
 
-public class GcdEuclideanUsingMod {
+public class GcdEuclideanUsingModRecursive {
 
 	public static void main(String[] args) {
 		System.out.println(gcd(90, 100)); //10 
@@ -10,13 +10,10 @@ public class GcdEuclideanUsingMod {
 	}
 	
 	public static int gcd(int a, int b) {
-		int t;
-		while (b != 0) {
-			t = b;
-			b = a % b;
-			a = t;
+		if (b == 0) {
+			return a;
+		} else {
+			return gcd(b, a % b);
 		}
-		
-		return a;
 	}
 }
