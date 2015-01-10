@@ -35,7 +35,7 @@ public class Modulo {
 	}
 	
 	/**
-	 * From wikipedia: gcd(a, b) = a - b(floor(a/b))
+	 * From wikipedia: a mod b = a - b(floor(a/b))
 	 */
 	public static int mod(int a, int b) {
 		return a - b * (a/b);
