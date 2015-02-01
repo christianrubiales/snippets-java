@@ -9,7 +9,7 @@ public class RotateArrayInPlaceByReversing {
 	public static void main(String[] args) {
 		String s = "123456789";
 		for (int i = 0; i < s.length() + s.length(); i++) {
-			System.out.println(rotateRight(s.toCharArray(), i));
+			System.out.println(rotateLeft(s.toCharArray(), i));
 		}
 	}
 	
@@ -18,7 +18,7 @@ public class RotateArrayInPlaceByReversing {
 	 * 2) Reverse the first (length - places)
 	 * 3) Reverse the last places, if places > 0
 	 */
-	public static char[] rotateRight(char[] array, int places) {
+	public static char[] rotateLeft(char[] array, int places) {
 		places = places % array.length;
 		reverse(array, 0, array.length - 1);
 		reverse(array, 0, array.length - 1 - places);
