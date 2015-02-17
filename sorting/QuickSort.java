@@ -9,6 +9,10 @@ public class QuickSort<T extends Comparable<T>> {
 		
 		System.out.println(Arrays.deepToString(sorter.sort(new Integer[]{2,3,1})));
 		System.out.println(Arrays.deepToString(sorter.sort(new Integer[]{6,5,3,3,5,2,6,7,8,12,3,7,4,2,3,1,8,9,2})));
+		System.out.println(Arrays.deepToString(sorter.sort(new Integer[]{1,1,1,1})));
+		System.out.println(Arrays.deepToString(sorter.sort(new Integer[]{1,2,3,4,5})));
+		System.out.println(Arrays.deepToString(sorter.sort(new Integer[]{5,4,3,2,1})));
+		System.out.println(Arrays.deepToString(sorter.sort(new Integer[]{5,1,4,2,3,3,2,4,1,5})));
 	}
 	
 	public T[] sort(T[] array) {
@@ -24,7 +28,7 @@ public class QuickSort<T extends Comparable<T>> {
 		int j = high;
 		T pivot = array[low + (high - low)/2];
 		
-		while (i <= j) {
+		while (i < j) {
 			
 			while (array[i].compareTo(pivot) < 0) {
 				i++;
