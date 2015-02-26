@@ -8,6 +8,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 	private final int MAX;
 	
 	public LRUCache(int max) {
+    	// INITIAL capacity, DEFAULT load factor, true - access order (false - insertion order)
 		super(max, 0.75f, true);
 		this.MAX = max;
 	}
@@ -15,6 +16,10 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 	protected boolean removeEldestEntry(Map.Entry<K, V> entry) {
 		return size() > this.MAX;
 	}
+	
+	
+	
+	///////////////////////////////////////////////////////////////
 	
 	public static void main(String[] args) {
 		LRUCache<String, String> cache = new LRUCache<String, String>(2);
