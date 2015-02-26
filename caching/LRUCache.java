@@ -3,6 +3,12 @@ package caching;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * @see http://blog.meschberger.ch/2008/10/linkedhashmaps-hidden-features.html
+ * @see http://chriswu.me/blog/a-lru-cache-in-10-lines-of-java/
+ * @see http://www.ashishsharma.me/2011/09/custom-lru-cache-java.html
+ * @see https://github.com/techpanja/interviewproblems/blob/master/src/maps/lrucache/LRUCache.java
+ */
 public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 
 	private final int MAX;
