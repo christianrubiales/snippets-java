@@ -10,11 +10,11 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 	public LRUCache(int max) {
     	// INITIAL capacity, DEFAULT load factor, true - access order (false - insertion order)
 		super(max, 0.75f, true);
-		this.MAX = max;
+		MAX = max;
 	}
 	
 	protected boolean removeEldestEntry(Map.Entry<K, V> entry) {
-		return size() > this.MAX;
+		return size() > MAX;
 	}
 	
 	
