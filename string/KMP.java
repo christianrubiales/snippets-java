@@ -66,7 +66,7 @@ public class KMP {
 		System.out.println(Arrays.deepToString(fail("aaa"))); // [0, 0, 1]
 		System.out.println(Arrays.deepToString(fail("aaaa"))); // [0, 0, 1, 2]
 		System.out.println(kmp("0123456789", "567"));//5
-		System.out.println(kmp("bananabanana", "nab"));//45
+		System.out.println(kmp("bananabanana", "nab"));//4
 		System.out.println(kmp("abc", "z"));//-1
 		System.out.println(kmp("a", "abc"));//-1
 	}
