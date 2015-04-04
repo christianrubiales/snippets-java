@@ -1,5 +1,8 @@
 package sequences;
 
+/**
+ * @see http://rosettacode.org/wiki/Look-and-say_sequence#Java
+ */
 public class LookAndSaySequenceRosettaCode {
 
 	public static String lookandsay(String number){
