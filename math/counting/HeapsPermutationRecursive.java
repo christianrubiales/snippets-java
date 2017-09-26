@@ -11,22 +11,22 @@ public class HeapsPermutationRecursive {
 	}
 
 	public static void generate(char[] array) {
-		generate(array.length - 1, array);
+		generate(array.length, array);
 	}
 	
 	public static void generate(int n, char[] array) {
 		if (n == 0) {
 			System.out.println(array);
 		} else {
-			for (int i = 0; i <= n; i++) {
+			for (int i = 0; i < n; i++) {
 				generate(n - 1, array);
 				int j = 0;
 				if (n % 2 == 0) {
-					j = 1;
+					j = 0;
 				} else {
 					j = i;
 				}
-				swap(array, n, j);
+				swap(array, n-1, j);
 			}
 		}
 	}
